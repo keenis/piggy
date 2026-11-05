@@ -1,0 +1,28 @@
+{
+    "version": "1.1.5",
+    "description": "Cloudy - a third-party NetEase Cloud Music desktop client forked from egoist/mygo-cloudmusic, with a redesigned liquid-glass UI.",
+    "homepage": "https://github.com/nya-owo/cloudy",
+    "license": "AGPL-3.0-only",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/nya-owo/cloudy/releases/download/v1.1.5/cloudy-1.1.5-windows-amd64.tar.gz",
+            "hash": "75e56fe2690934caeda19791f2ac578e5ea9c3774ed9c0219e0ce7fddff91c29"
+        }
+    },
+    "shortcuts": [
+        [
+            "Cloudy.exe",
+            "Cloudy"
+        ]
+    ],
+    "checkver": {
+        "github": "https://github.com/nya-owo/cloudy"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/nya-owo/cloudy/releases/download/v$version/cloudy-$version-windows-amd64.tar.gz"
+            }
+        }
+    }
+}
