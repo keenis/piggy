@@ -2,6 +2,7 @@
     "version": "0.1.8",
     "description": "mygo-music - a native music player you extend with plugins.",
     "homepage": "https://github.com/egoist/mygo-music",
+    "license": "AGPL-3.0-only",
     "architecture": {
         "64bit": {
             "url": "https://github.com/egoist/mygo-music/releases/download/v0.1.8/mygo-music-0.1.8-windows-amd64.tar.gz",
