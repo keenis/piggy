@@ -1,0 +1,40 @@
+{
+    "version": "0.1.8",
+    "description": "mygo-music - a native music player you extend with plugins.",
+    "homepage": "https://github.com/egoist/mygo-music",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/egoist/mygo-music/releases/download/v0.1.8/mygo-music-0.1.8-windows-amd64.tar.gz",
+            "hash": "c88096bb07a8dd7a4ff0111cd853596590669c346aecca18137928b6ed28151f"
+        },
+        "arm64": {
+            "url": "https://github.com/egoist/mygo-music/releases/download/v0.1.8/mygo-music-0.1.8-windows-arm64.tar.gz",
+            "hash": "57d3400f699b8783375b62bba373d9edd9046696ab5fe2af2026332c10c6f4f9"
+        }
+    },
+    "shortcuts": [
+        [
+            "MyGo Music.exe",
+            "MyGo Music"
+        ]
+    ],
+    "checkver": {
+        "github": "https://github.com/egoist/mygo-music"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/egoist/mygo-music/releases/download/v$version/mygo-music-$version-windows-amd64.tar.gz",
+                "hash": {
+                    "url": "$baseurl/SHA256SUMS"
+                }
+            },
+            "arm64": {
+                "url": "https://github.com/egoist/mygo-music/releases/download/v$version/mygo-music-$version-windows-arm64.tar.gz",
+                "hash": {
+                    "url": "$baseurl/SHA256SUMS"
+                }
+            }
+        }
+    }
+}
