@@ -12,6 +12,7 @@ scoop bucket add piggy https://github.com/keenis/piggy
 | --- | --- |
 | `breeze` | Flutter comic reader, comic sources via plugins |
 | `cloudy` | Third-party NetEase Cloud Music client (liquid-glass UI) |
+| `diskgenius-cn` | DiskGenius 中文版 — partition manager / data recovery (free tier) |
 | `mpv_PlayKit` | mpv-lazy config bundle (shaders, filters, Chinese-annotated conf) |
 | `mygo-music` | Native plugin-extensible music player |
 | `ths-ai` | 同花顺AI版 — the stock client formerly known as 同花顺远航版 |
