@@ -16,6 +16,7 @@ scoop bucket add piggy https://github.com/keenis/piggy
 | `mpv_PlayKit` | mpv-lazy config bundle (shaders, filters, Chinese-annotated conf) |
 | `mygo-music` | Native plugin-extensible music player |
 | `ths-ai` | 同花顺AI版 — the stock client formerly known as 同花顺远航版 |
+| `yuumi` | Yuumi — League of Legends in-game companion (Tauri, portable zip) |
 
 ## Notes
 
